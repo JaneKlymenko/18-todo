@@ -1,0 +1,19 @@
+.button {
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(62, 109, 76);
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  padding: 8px;
+  margin: 10px;
+}
+.button:hover {
+  background-color: rgb(16, 109, 44);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  filter: grayscale();
+}

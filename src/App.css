@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: #1e3057;
+  min-height: 100vh;
+  margin: 0;
+  padding: 60px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.count_text {
+  margin-top: 40px;
+}
